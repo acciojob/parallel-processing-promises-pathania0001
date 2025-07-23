@@ -26,6 +26,7 @@ Promise.all(promises).then((data)=>{
 	data.forEach((img)=>{
 	output.appendChild(img);
 	})
+	console.log(output);
 }).catch((error)=>{
 	loading.style.display = "none";
 	errorDiv.innerHTML = error;
