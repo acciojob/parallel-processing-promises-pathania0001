@@ -18,7 +18,7 @@ const loadImages = (img)=>{
 }
 const handleClick = () => {
 	loading.innerHTML = "Loading..."
-    errorDiv.innderHTML = ""
+    errorDiv.innerHTML = ""
 	const promises = images.map((image)=>loadImages(image.url))
 
 	
